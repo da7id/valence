@@ -1,6 +1,6 @@
 <?php
 
-$data = file("data.txt") or die ("Unable to open data.txt");
+$data = file("data.txt");
 
 sort($data, SORT_NATURAL | SORT_NUMBERIC);
 
